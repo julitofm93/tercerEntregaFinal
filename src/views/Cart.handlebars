@@ -1,0 +1,24 @@
+<h1 class="title">Carrito de compra</h1>
+<hr>
+<section>
+    <article id="cartList"></article>
+    <article>
+        <h3 class="title">Datos para envío</h3>
+        <div class="is-flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/481px-Pokebola-pokeball-png-0.png" alt="imagen de perfil" class="image is-128x128">
+            <ul class="ml-5">
+                <li>Nombre y apellido: {{this.fullName}}</li>
+                <li>Dirección: {{this.adress}}</li>
+                <li>Teléfono: {{this.phone}}</li>
+                <li>Email: {{this.email}}</li>
+            </ul>
+        </div>
+    </article>
+    <article class="notification is-link mt-5">
+        <p><b>ATENCIÓN</b>: Compruebe que la información sea valida ya que se utilizará para enviarle sus productos. En caso de que haya un
+            error vaya a su <a href="/perfil">perfil</a> y modifique estos datos.</p>
+    </article>
+</section>
+
+<!--SCRIPTS-->
+<script type="text/javascript"src="../js/cart.js"></script>
